@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-image: url("img/fundo.jpg");
+    background-size: 100%;
+}
+
+.nav-bar{
+    list-style: none;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+
+.nav-bar a:hover {
+    color: #00FFFF;
+    cursor: pointer;
+} 
+
+  .footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
