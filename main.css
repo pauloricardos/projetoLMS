@@ -20,11 +20,15 @@ body {
     cursor: pointer;
 } 
 
-  .footer {
+.footer {
     position:absolute;
     bottom:0;
     width:100%;
     background-color: black;
     text-align: center;
     color: white;
-  }
+}
+
+h1 {
+    text-align: center;
+}
