@@ -1,0 +1,13 @@
+.wrapper{
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.modules {
+    margin: 20px;
+}
+
+.modules a {
+    color: #191970;
+}
