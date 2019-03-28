@@ -1,0 +1,13 @@
+.course{
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.course-modules {
+    margin: 20px;
+}
+
+.course-modules a {
+    color: #191970;
+}
