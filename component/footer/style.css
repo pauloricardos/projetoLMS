@@ -1,8 +1,7 @@
 
 div.container {
     height: 100%;
-    background:  #191970;
-    
+    background: #191970;
     margin-top: 100px;
 
 }
@@ -42,10 +41,10 @@ div.coluna2 {
     min-width:15px;
     
     margin-top: -50px;
-    color: white
+    color: white;
 }
 .clean{
-clear:both;
+clear: both;
 }
 .direitos{
     text-align: center;
