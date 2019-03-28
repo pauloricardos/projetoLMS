@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Faculdade</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="component/carousel/script.js"></script>
     <link rel="stylesheet" type="text/css" href="component\header\site.css" />
     <link rel="stylesheet" type="text/css" href="component\body\style.css" />
     <link rel="stylesheet" type="text/css" href="component\back-to-top\style.css" />
     <link rel="stylesheet" type="text/css" href="component\course\style.css" />
     <link rel="stylesheet" type="text/css" href="component\spotlight\style.css" />
+    <link rel="stylesheet" type="text/css" href="component\carousel\style.css" />
 </head>
 
 <body>
@@ -31,33 +33,54 @@
     </header>
 
     <a class="back-to-top" href="#top">^</a>
+    <div class="content">
+        <div class="spotlight">
+            <h1>Lorem Ipsum</h1>
+        </div>
     
-    <div class="spotlight">
-        <h1>Lorem Ipsum</h1>
-    </div>
+        <div class="content-wrapper">
+            <h1>CURSOS</h1>
+            <div class="course" id="courses">
+                <div class="course-modules">
+                    <h2>NOME CURSO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                    <a href="#">MAIS ></a>
+                </div>
+                <div class="course-modules">
+                    <h2>NOME CURSO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                    <a href="#">MAIS ></a>
+                </div>
+                <div class="course-modules">
+                    <h2>NOME CURSO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                    <a href="#">MAIS ></a>
+                </div>
+                <div class="course-modules">
+                    <h2>NOME CURSO</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                    <a href="#">MAIS ></a>
+                </div>
+            </div>
+        </div>
 
-    <div class="content-wrapper">
-        <h1>Cursos</h1>
-        <div class="course" id="courses">
-            <div class="course-modules">
-                <h2>NOME CURSO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-                <a href="#">MAIS -></a>
+        <div class="carousel-wrapper">
+            <div class="carousel carousel-1" id="carousel-1">
+                <a class="btnBackCarousel" href="#carousel-3">VOLTAR</a>
+                <a class="btnFrontCarousel" href="#carousel-2">AVANÇAR</a>
+                <h1>PRIMEIRA NOTÍCIA</h1>
             </div>
-            <div class="course-modules">
-                <h2>NOME CURSO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-                <a href="#">MAIS -></a>
+        
+            <div class="carousel carousel-2" id="carousel-2">
+                <a class="btnBackCarousel" href="#carousel-1">VOLTAR</a>
+                <a class="btnFrontCarousel" href="#carousel-3">AVANÇAR</a>
+                <h1>SEGUNDA NOTÍCIA</h1>
             </div>
-            <div class="course-modules">
-                <h2>NOME CURSO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-                <a href="#">MAIS -></a>
-            </div>
-            <div class="course-modules">
-                <h2>NOME CURSO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet viverra dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-                <a href="#">MAIS -></a>
+        
+            <div class="carousel carousel-3" id="carousel-3">
+                <a class="btnBackCarousel" href="#carousel-2">VOLTAR</a>
+                <a class="btnFrontCarousel" href="#carousel-1">AVANÇAR</a>
+                <h1>TERCEIRA NOTÍCIA</h1>
             </div>
         </div>
     </div>
