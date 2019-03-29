@@ -12,22 +12,6 @@
     color: #191970;
 }
 
-
-/* CSS dos cards de cursos na home */
-.course {
-    display: grid;
-    margin-bottom: 20px;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-}
-
-.course-modules {
-    margin: 20px;
-}
-
-.course-modules a {
-    color: #191970;
-}
-
 /* CSS do título dos cards (cursos e detalhes do curso)*/
 .title-collection {
     padding: 20px 0;
